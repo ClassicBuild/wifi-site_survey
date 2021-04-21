@@ -1,0 +1,38 @@
+﻿<html lang="en">
+<head class="h-100">
+    <title>SiteSurvey Simulator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body class="h-100" >
+<<h3 class="text-white bg-dark text-center border-white fixed-top mb-10">Site Simulator</h3>
+<div class="container h-100">
+    <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-10 col-md-8 col-lg-6">
+            <!-- Form -->
+            <form class="form-example" action="game.php" method="post">
+                <h1>Login</h1>
+                <p class="description">Please enter your full name and student number</p>
+                <!-- Input fields -->
+                <div class="form-group">
+                    <label for="username">Full Name:</label>
+                    <input type="text" class="form-control username" id="username" placeholder="Full Name" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="studentnumber">Student Number</label>
+                    <input type="text" id="student" placeholder="Student Number" name="student" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-customized text-white bg-dark border-white">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+<footer class="text-white bg-dark text-center border-white fixed-bottom">
+          <div class="footer-copyright text-center py-1">Copyright 2021</div>
+</footer>
+</body>
+</html>
